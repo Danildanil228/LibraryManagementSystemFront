@@ -1,0 +1,44 @@
+﻿@page "/add-reader"
+@inject GraphQLService GraphQLService
+@inject NavigationManager NavigationManager
+
+<h3>Добавить читателя</h3>
+
+<EditForm Model="@reader" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label>Имя:</label>
+        <InputText @bind-Value="reader.Name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Контактная информация:</label>
+        <InputText @bind-Value="reader.ContactInfo" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+</EditForm>
+
+<a href="/readers">Назад к списку читателей</a>
+
+@code {
+    private Reader reader = new Reader();
+
+    private async Task HandleValidSubmit()
+    {
+        var mutation = $@"
+        mutation {{
+            addReader(readerInput: {{
+                name: ""{reader.Name}"",
+                contactInfo: ""{reader.ContactInfo}""
+            }}) {{
+                id
+            }}
+        }}";
+
+        await GraphQLService.ExecuteMutationAsync<Reader>(mutation);
+        NavigationManager.NavigateTo("/readers");
+    }
+}

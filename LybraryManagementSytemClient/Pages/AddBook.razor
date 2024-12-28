@@ -1,0 +1,63 @@
+﻿@page "/add-book"
+@inject GraphQLService GraphQLService
+@inject NavigationManager NavigationManager
+
+<h3>Добавить книгу</h3>
+
+<EditForm Model="@book" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label>Название:</label>
+        <InputText @bind-Value="book.Title" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Автор:</label>
+        <InputText @bind-Value="book.Author" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Издательство:</label>
+        <InputText @bind-Value="book.Publisher" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Дата публикации:</label>
+        <InputDate @bind-Value="book.PublicationDate" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Местоположение:</label>
+        <InputText @bind-Value="book.Location" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+</EditForm>
+
+<a href="/books">Назад к списку книг</a>
+
+@code {
+    private Book book = new Book();
+
+    private async Task HandleValidSubmit()
+    {
+        var mutation = $@"
+        mutation {{
+            addBook(bookInput: {{
+                title: ""{book.Title}"",
+                author: ""{book.Author}"",
+                publisher: ""{book.Publisher}"",
+                publicationDate: ""{book.PublicationDate:yyyy-MM-dd}"",
+                location: ""{book.Location}"",
+                isAvailable: true
+            }}) {{
+                id
+            }}
+        }}";
+
+        await GraphQLService.ExecuteMutationAsync<Book>(mutation);
+        NavigationManager.NavigateTo("/books");
+    }
+}   

@@ -1,0 +1,62 @@
+﻿@page "/books-by-date"
+@inject GraphQLService GraphQLService
+
+<h3>Список книг по дате издания</h3>
+
+<div class="form-group">
+    <label>Начальная дата:</label>
+    <InputDate @bind-Value="startDate" class="form-control" />
+</div>
+
+<div class="form-group">
+    <label>Конечная дата:</label>
+    <InputDate @bind-Value="endDate" class="form-control" />
+</div>
+
+<button @onclick="SearchBooks" class="btn btn-primary">Поиск</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Автор</th>
+            <th>Дата издания</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in books)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.PublicationDate.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private DateTime startDate = DateTime.Now.AddYears(-10);
+    private DateTime endDate = DateTime.Now;
+    private List<Book> books = new List<Book>();
+
+    private async Task SearchBooks()
+    {
+        var query = $@"
+        query {{
+            booksByPublicationDateRange(startDate: ""{startDate:yyyy-MM-dd}"", endDate: ""{endDate:yyyy-MM-dd}"") {{
+                title
+                author
+                publicationDate
+            }}
+        }}";
+
+        var response = await GraphQLService.ExecuteQueryAsync<BooksResponse>(query);
+        books = response.BooksByPublicationDateRange;
+    }
+
+    public class BooksResponse
+    {
+        public List<Book> BooksByPublicationDateRange { get; set; }
+    }
+}

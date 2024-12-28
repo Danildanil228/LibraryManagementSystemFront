@@ -1,0 +1,55 @@
+﻿@page "/books-by-publisher"
+@inject GraphQLService GraphQLService
+
+<h3>Список книг по издательству</h3>
+
+<div class="form-group">
+    <label>Введите издательство:</label>
+    <InputText @bind-Value="publisher" class="form-control" />
+    <button @onclick="SearchBooks" class="btn btn-primary mt-2">Поиск</button>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Автор</th>
+            <th>Издательство</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in books)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.Publisher</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private string publisher;
+    private List<Book> books = new List<Book>();
+
+    private async Task SearchBooks()
+    {
+        var query = $@"
+        query {{
+            booksByPublisher(publisher: ""{publisher}"") {{
+                title
+                author
+                publisher
+            }}
+        }}";
+
+        var response = await GraphQLService.ExecuteQueryAsync<BooksResponse>(query);
+        books = response.BooksByPublisher;
+    }
+
+    public class BooksResponse
+    {
+        public List<Book> BooksByPublisher { get; set; }
+    }
+}

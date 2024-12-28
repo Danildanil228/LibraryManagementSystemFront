@@ -1,0 +1,48 @@
+﻿@page "/inventory"
+@inject GraphQLService GraphQLService
+
+<h3>Список книг для инвентаризации</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Автор</th>
+            <th>Местоположение</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in books)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.Location</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Book> books = new List<Book>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var query = @"
+        query {
+            booksForInventory {
+                title
+                author
+                location
+            }
+        }";
+
+        var response = await GraphQLService.ExecuteQueryAsync<BooksResponse>(query);
+        books = response.BooksForInventory;
+    }
+
+    public class BooksResponse
+    {
+        public List<Book> BooksForInventory { get; set; }
+    }
+}

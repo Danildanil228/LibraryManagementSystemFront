@@ -1,0 +1,45 @@
+﻿@page "/debtors"
+@inject GraphQLService GraphQLService
+
+<h3>Список должников</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Контактная информация</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reader in debtors)
+        {
+            <tr>
+                <td>@reader.Name</td>
+                <td>@reader.ContactInfo</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Reader> debtors = new List<Reader>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var query = @"
+        query {
+            debtors {
+                name
+                contactInfo
+            }
+        }";
+
+        var response = await GraphQLService.ExecuteQueryAsync<DebtorsResponse>(query);
+        debtors = response.Debtors;
+    }
+
+    public class DebtorsResponse
+    {
+        public List<Reader> Debtors { get; set; }
+    }
+}

@@ -1,0 +1,78 @@
+﻿@page "/readers"
+@inject GraphQLService GraphQLService
+@inject NavigationManager NavigationManager
+
+<h3>Читатели</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Контактная информация</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reader in readers)
+        {
+            <tr>
+                <td>@reader.Name</td>
+                <td>@reader.ContactInfo</td>
+                <td>
+                    <button @onclick="() => EditReader(reader.Id)" class="btn btn-primary">Изменить</button>
+                    <button @onclick="() => DeleteReader(reader.Id)" class="btn btn-danger">Удалить</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<button @onclick="AddReader" class="btn btn-success">Добавить читателя</button>
+
+@code {
+    private List<Reader> readers = new List<Reader>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadReaders();
+    }
+
+    private async Task LoadReaders()
+    {
+        var query = @"
+        query {
+            readers {
+                id
+                name
+                contactInfo
+            }
+        }";
+        var response = await GraphQLService.ExecuteQueryAsync<ReadersResponse>(query);
+        readers = response.Readers;
+    }
+
+    private void AddReader()
+    {
+        NavigationManager.NavigateTo("/add-reader");
+    }
+
+    private void EditReader(int id)
+    {
+        NavigationManager.NavigateTo($"/edit-reader/{id}");
+    }
+
+    private async Task DeleteReader(int id)
+    {
+        var mutation = $@"
+        mutation {{
+            deleteReader(id: {id})
+        }}";
+        await GraphQLService.ExecuteMutationAsync<bool>(mutation);
+        await LoadReaders();
+    }
+
+    public class ReadersResponse
+    {
+        public List<Reader> Readers { get; set; }
+    }
+}

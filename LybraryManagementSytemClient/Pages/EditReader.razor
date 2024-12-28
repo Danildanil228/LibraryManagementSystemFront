@@ -1,0 +1,67 @@
+﻿@page "/edit-reader/{id:int}"
+@inject GraphQLService GraphQLService
+@inject NavigationManager NavigationManager
+
+<h3>Редактировать читателя</h3>
+
+<EditForm Model="@reader" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label>Имя:</label>
+        <InputText @bind-Value="reader.Name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Контактная информация:</label>
+        <InputText @bind-Value="reader.ContactInfo" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+</EditForm>
+
+<a href="/readers">Назад к списку читателей</a>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Reader reader = new Reader();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var query = $@"
+        query {{
+            readerById(id: {Id}) {{
+                id
+                name
+                contactInfo
+            }}
+        }}";
+
+        var response = await GraphQLService.ExecuteQueryAsync<ReaderResponse>(query);
+        reader = response.ReaderById;
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        var mutation = $@"
+        mutation {{
+            updateReader(id: {Id}, readerInput: {{
+                name: ""{reader.Name}"",
+                contactInfo: ""{reader.ContactInfo}""
+            }}) {{
+                id
+            }}
+        }}";
+
+        await GraphQLService.ExecuteMutationAsync<Reader>(mutation);
+        NavigationManager.NavigateTo("/readers");
+    }
+
+    public class ReaderResponse
+    {
+        public Reader ReaderById { get; set; }
+    }
+}

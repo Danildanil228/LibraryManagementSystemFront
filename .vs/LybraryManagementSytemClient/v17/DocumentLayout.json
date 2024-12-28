@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\pages\\booksondebtors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\pages\\booksondebtors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\pages\\booksbydaterange.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\pages\\booksbydaterange.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\pages\\readers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\pages\\readers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\pages\\editreader.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\pages\\editreader.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\pages\\editbook.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\pages\\editbook.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\pages\\debtors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\pages\\debtors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\pages\\booksbypublisher.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\pages\\booksbypublisher.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\pages\\booksbyauthor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\pages\\booksbyauthor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\pages\\books.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\pages\\books.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\pages\\addreader.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\pages\\addreader.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\pages\\addbook.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\pages\\addbook.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\models\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\models\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\services\\graphqlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\services\\graphqlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|c:\\users\\d_sil\\desktop\\lybrarymanagementsytemclient\\lybrarymanagementsytemclient\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3441B6A7-F47A-4829-8E96-D3A4F5466291}|LybraryManagementSytemClient\\LybraryManagementSytemClient.csproj|solutionrelative:lybrarymanagementsytemclient\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditReader.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\EditReader.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Pages\\EditReader.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\EditReader.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Pages\\EditReader.razor",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:27:40.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inventory.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\Inventory.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Pages\\Inventory.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\Inventory.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Pages\\Inventory.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:29:03.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Readers.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\Readers.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Pages\\Readers.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\Readers.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Pages\\Readers.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:27:12.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksByDateRange.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\BooksByDateRange.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Pages\\BooksByDateRange.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\BooksByDateRange.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Pages\\BooksByDateRange.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:29:34.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksOnDebtors.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\BooksOnDebtors.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Pages\\BooksOnDebtors.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\BooksOnDebtors.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Pages\\BooksOnDebtors.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:21:23.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditBook.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\EditBook.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Pages\\EditBook.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\EditBook.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Pages\\EditBook.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:26:56.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Debtors.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\Debtors.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Pages\\Debtors.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\Debtors.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Pages\\Debtors.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:27:51.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BooksByPublisher.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\BooksByPublisher.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Pages\\BooksByPublisher.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\BooksByPublisher.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Pages\\BooksByPublisher.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:29:20.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BooksByAuthor.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\BooksByAuthor.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Pages\\BooksByAuthor.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\BooksByAuthor.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Pages\\BooksByAuthor.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:28:20.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Books.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\Books.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Pages\\Books.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\Books.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Pages\\Books.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:24:18.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddReader.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\AddReader.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Pages\\AddReader.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\AddReader.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Pages\\AddReader.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:27:25.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddBook.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\AddBook.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Pages\\AddBook.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Pages\\AddBook.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Pages\\AddBook.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:24:31.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-27T17:32:45.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:18:13.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\App.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\App.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\App.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T11:58:15.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GraphQLService.cs",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Services\\GraphQLService.cs",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Services\\GraphQLService.cs",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Services\\GraphQLService.cs",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Services\\GraphQLService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:30:46.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Models\\Book.cs",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Models\\Book.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:22:45.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Reader.cs",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Models\\Reader.cs",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Models\\Reader.cs",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Models\\Reader.cs",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Models\\Reader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:22:17.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Program.cs",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Program.cs",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Program.cs",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:32:20.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\_Imports.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\_Imports.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\_Imports.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:18:39.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "LybraryManagementSytemClient\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:17:09.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "LybraryManagementSytemClient\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\d_sil\\Desktop\\LybraryManagementSytemClient\\LybraryManagementSytemClient\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "LybraryManagementSytemClient\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-27T12:23:41.851Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
